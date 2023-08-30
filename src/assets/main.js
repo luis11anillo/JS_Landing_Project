@@ -1,5 +1,4 @@
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC8LeXCWOalN8SxlrPcG-PaQ&part=snippet%2Cid&order=date&maxResults=10';
-//const url = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC8LeXCWOalN8SxlrPcG-PaQ&part=snippet%2Cid&maxResults=10';
 const options = {
 	method: 'GET',
 	headers: {
@@ -16,7 +15,7 @@ async function fetchData(urlApi) {
     return data;
 }
 
-// Autollamado de FUNCION:
+// Autollamado de FUNCION: ()();
 
 (async () => {
     try {
@@ -39,7 +38,7 @@ async function fetchData(urlApi) {
             </div>
 
         </div>
-        `).slice(0,10).join('')}`; // Slice() para retornar del elemento 0 hasta el 4 y jon() para juntarlos
+        `).slice(0,10).join('')}`; // Slice() para retornar del elemento 0 hasta el 10 y jon() para juntarlos
 
         contentCo.innerHTML = view; // Inserta la vista creada (view) en el html usando el .innerHTML
 
