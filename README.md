@@ -1,4 +1,4 @@
-## JS_Landing 
+## JS Landing Page 
 
 Homepage about a youtube channel (@midudev) showing the latest videos uploaded. Using HTML, [Tailwind CSS](https://tailwindcss.com/docs/installation) & **JS**
 
